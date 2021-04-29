@@ -1,0 +1,25 @@
+{
+    "name": "pierreminiggio/github-action-run",
+    "description": "",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Pierre MINIGGIO",
+            "email": "pierre@miniggiodev.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4.0",
+        "pierreminiggio/github-statuses-enum": "9999999-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "PierreMiniggio\\GithubActionRun\\": "src/"
+        }
+    },
+    "scripts": {},
+    "scripts-descriptions": {
+        "test": "Run all tests!"
+    }
+}
