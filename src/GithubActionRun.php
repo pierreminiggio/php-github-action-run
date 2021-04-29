@@ -11,13 +11,13 @@ class GithubActionRun
      * @param string $status
      * @see GithubStatusesEnum
      * 
-     * @param string $conclusion
+     * @param ?string $conclusion
      * @see ConclusionsEnum
      */
     public function __construct(
         public int $id,
         public string $status,
-        public string $conclusion
+        public ?string $conclusion
     )
     {
     }
