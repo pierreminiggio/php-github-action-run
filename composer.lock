@@ -4,26 +4,25 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "123c65f31e96689b57b87ee4ba168a51",
+    "content-hash": "1cbb853d7664276e2d44e5055179efd5",
     "packages": [
         {
             "name": "pierreminiggio/github-statuses-enum",
-            "version": "dev-main",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/pierreminiggio/php-github-statuses-enum.git",
-                "reference": "1f26a833b305cbd3423175dc72adca1429ad0d42"
+                "reference": "94dd07911d379698f1ca655044ee6b0de2dbd748"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/pierreminiggio/php-github-statuses-enum/zipball/1f26a833b305cbd3423175dc72adca1429ad0d42",
-                "reference": "1f26a833b305cbd3423175dc72adca1429ad0d42",
+                "url": "https://api.github.com/repos/pierreminiggio/php-github-statuses-enum/zipball/94dd07911d379698f1ca655044ee6b0de2dbd748",
+                "reference": "94dd07911d379698f1ca655044ee6b0de2dbd748",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.4.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -39,17 +38,15 @@
             ],
             "support": {
                 "issues": "https://github.com/pierreminiggio/php-github-statuses-enum/issues",
-                "source": "https://github.com/pierreminiggio/php-github-statuses-enum/tree/1.0.0"
+                "source": "https://github.com/pierreminiggio/php-github-statuses-enum/tree/2.0.0"
             },
-            "time": "2021-04-28T17:16:21+00:00"
+            "time": "2022-05-29T19:56:55+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "dev",
-    "stability-flags": {
-        "pierreminiggio/github-statuses-enum": 20
-    },
+    "minimum-stability": "stable",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
